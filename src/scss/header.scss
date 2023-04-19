@@ -7,7 +7,7 @@
 		@include adaptiveValue("gap", 30, 10, 0, 1280, 768);
 		min-height: 6.25rem;
 		position: relative;
-		z-index: 5;
+		z-index: 6;
 
 		@media (max-width:$mobile) {
 			min-height: 3.5rem;
