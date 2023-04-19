@@ -1,0 +1,11 @@
+// Заголовки, загальні БЕМ блоки та інше...
+
+.title {
+
+	&__label {
+		font-weight: 700;
+		font-family: 'Rajdhani';
+		font-size: 2.25rem;
+		line-height: math.div(48, 36);
+	}
+}

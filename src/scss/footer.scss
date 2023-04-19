@@ -1,0 +1,66 @@
+//==============================================================================================
+
+
+.footer {
+
+	&__container {
+		min-height: rem(70);
+		background-color: $blueColor;
+		padding-top: rem(16);
+		padding-bottom: rem(16);
+		gap: rem(30);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+
+		@media (max-width:$mobile) {
+			flex-direction: column;
+			align-items: start;
+
+		}
+	}
+
+	&__logo {
+		text-transform: uppercase;
+		color: $whiteColor;
+		font-size: rem(30);
+		font-family: 'Rajdhani';
+		font-weight: 700;
+	}
+
+	&__menu {}
+}
+
+.menu-footer {
+
+	&__body {}
+
+	&__list {
+		color: $whiteColor;
+		font-size: rem(14);
+		line-height: math.div(19, 14);
+		font-weight: 600;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: rem(30);
+		flex-wrap: wrap;
+
+		@media (max-width:$mobile) {
+			flex-direction: column;
+			gap: rem(20);
+			align-items: start;
+		}
+	}
+}
+
+.menu {
+
+	&__item {}
+
+	&__link {}
+}
+
+//====================================================================================================
